@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>Kids Stories | قصص الأطفال</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🐰 عالم قصص الأطفال</h1>
+  <nav>
+    <a href="#">القصص | Stories</a>
+    <a href="#">للآباء | Parents</a>
+    <button onclick="toggleLang()">AR | EN</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <p class="ar">اقرأ، تخيّل، واستمتع مع أصدقاء الحكايات!</p>
+  <p class="en">Read, imagine, and have fun with story friends!</p>
+  <button>ابدأ القراءة 🎈</button>
+</section>
+
+<section class="stories">
+  <div class="card">
+    <h3 class="ar">🐻 الدب الصغير والزهرة السحرية</h3>
+    <h3 class="en">🐻 The Little Bear and the Magic Flower</h3>
+    <p class="ar">قصة عن الصداقة</p>
+    <p class="en">A story about friendship</p>
+  </div>
+</section>
+
+<footer>
+  <p class="ar">🌸 القراءة متعة لكل طفل</p>
+  <p class="en">🌸 Reading is fun for every child</p>
+</footer>
+
+<script>
+function toggleLang(){
+  document.body.classList.toggle("show-en");
+}
+</script>
+
+</body>
+</html>
